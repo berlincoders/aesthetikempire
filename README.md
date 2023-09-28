@@ -13,3 +13,10 @@ rails new \
   -m https://raw.githubusercontent.com/lewagon/rails-templates/master/minimal.rb \
   CHANGE_THIS_TO_YOUR_RAILS_APP_NAME
 ```
+or create your project at the current local directory.
+```bash
+rails new . \
+  -d postgresql \
+  -m https://raw.githubusercontent.com/lewagon/rails-templates/master/minimal.rb
+```
+
