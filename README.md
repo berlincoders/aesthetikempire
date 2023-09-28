@@ -10,13 +10,13 @@ Same as minimal **plus** a Devise install with a generated `User` model.
 ```bash
 rails new \
   -d postgresql \
-  -m https://raw.githubusercontent.com/lewagon/rails-templates/master/minimal.rb \
+   -m https://raw.githubusercontent.com/lewagon/rails-templates/master/devise.rb \
   CHANGE_THIS_TO_YOUR_RAILS_APP_NAME
 ```
 or create your project at the current local directory.
 ```bash
 rails new . \
   -d postgresql \
-  -m https://raw.githubusercontent.com/lewagon/rails-templates/master/minimal.rb
+  -m https://raw.githubusercontent.com/lewagon/rails-templates/master/devise.rb 
 ```
 
